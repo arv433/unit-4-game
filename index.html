@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+arh<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,10 +12,12 @@
 </head>
 
 <body>
+    <!-- characterSelect only shows during the beginning phase of the game -->
     <div id="characterSelect">
         <h2>Choose your character</h2>
         <div id="characterSelectImages">
             <div id="obiWan" class="characterBox">
+                <!-- characterName and HP divs are populated by object properties in JavaScript -->
                 <div class="characterName"></div>
                 <img src="assets/images/obiWan.png" alt="Obi-Wan Kenobi">
                 <div class="HP"></div>
@@ -41,6 +43,7 @@
     <div id="gameplay">
         <div id="yourCharacter">
             <h2>Your Character</h2>
+            <!-- divs whose id's end with the word Images are spaces for each character card to populate -->
             <div id="yourCharacterImages"></div>
         </div>
         <br>
@@ -57,12 +60,16 @@
             <h2>Defender</h2>
             <div id="defenderImages"></div>
             <div id="fightLog">
+                <!-- yourAttack logs the player's attack against the enemy -->
                 <span id="yourAttack"></span>
                 <br>
+                <!-- enemysAttack logs the enemy's attack against the player -->
                 <span id="enemysAttack"></span>
                 <br>
+                <!-- winLossLog populates when the player beats or is beaten by an enemy -->
                 <span id="winLossLog"></span>
             </div>
+            <!-- the tryAgain button is hidden until only certain stages of the game -->
             <button type="button" id="tryAgain">Play Again?</button>
         </div>
     </div>
