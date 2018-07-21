@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <title>Star Wars RPG</title>
+</head>
+
+<body>
+    <div id="characterSelect">
+        <h2>Choose your character</h2>
+        <div id="characterSelectImages">
+            <div id="obiWan" class="characterBox">
+                <div class="characterName"></div>
+                <img src="assets/images/obiWan.png" alt="Obi-Wan Kenobi">
+                <div class="HP"></div>
+            </div>
+            <div id="yoda" class="characterBox">
+                <div class="characterName"></div>
+                <img src="assets/images/yoda.png" alt="Master Yoda">
+                <div class="HP"></div>
+            </div>
+            <div id="DMaul" class="characterBox">
+                <div class="characterName"></div>
+                <img src="assets/images/darthMaul.png" alt="Darth Maul">
+                <div class="HP"></div>
+            </div>
+            <div id="DVader" class="characterBox">
+                <div class="characterName"></div>
+                <img src="assets/images/darthVader.png" alt="Darth Vader">
+                <div class="HP"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="gameplay">
+        <div id="yourCharacter">
+            <h2>Your Character</h2>
+            <div id="yourCharacterImages"></div>
+        </div>
+        <br>
+        <div id="availableEnemies">
+            <h2>Avaliable Enemies</h2>
+            <div id="avaliableEnemiesImages"></div>
+        </div>
+        <br>
+        <div id="fightSection">
+            <h2>Fight Section</h2>
+            <button type="button" id="attack">Attack</button>
+        </div>
+        <div id="defenderArea">
+            <h2>Defender</h2>
+            <div id="defenderImages"></div>
+            <div id="fightLog">
+                <span id="yourAttack"></span>
+                <br>
+                <span id="enemysAttack"></span>
+                <br>
+                <span id="winLossLog"></span>
+            </div>
+            <button type="button" id="tryAgain">Play Again?</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
