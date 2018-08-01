@@ -12,6 +12,8 @@ This application is a mini-RPG where you must beat each of the enemies in order 
 
 4. Repeat until you win or lose, click play again if you would like to have another go
 
+![Screenshot of game](assets/images/gameplayScreenshot.png)
+
 Created by Arvin Zojaji
 
 Enjoy!
